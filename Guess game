@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int guess;
+    int secretnumber = 7;
+
+while(guess != secretnumber)
+{ cout << "Guess the number- ";
+cin >> guess;
+}
+    cout << "You win! " << endl;
+    
+    return 0;
+}
